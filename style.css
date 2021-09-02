@@ -37,6 +37,16 @@ nav {
   font-family: "Syncopate", sans-serif;
   letter-spacing: 0.1rem;
 }
+
+@media only screen and (max-width: 700px) {
+  .container {
+    max-width: 700px;
+  }
+  .album-cover {
+    visibility: hidden;
+    height: 0px;
+  }
+}
 .container {
   width: 500px;
   height: 600px;
@@ -73,7 +83,7 @@ nav {
   position: absolute;
   text-align: center;
   font-family: "Syncopate", sans-serif;
-  font-size: 16px;
+  font-size: 16px 10vw;
   letter-spacing: 0.05rem;
   color: #ffffff;
   background-color: #313131;
